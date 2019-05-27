@@ -34,15 +34,15 @@ class Rps
     end
 
     if play1 == play2
-      return "draw"
+      return "Draw"
     elsif play1 + 1 == play2
-      return @player2
+      return "The computer wins with  #{@player2}"
     elsif play2 + 1 == play1
-      return @player1
+      return "Congratulations, you win with #{@player1}"
     elsif play1 == 1 && play2 == 3
-      return @player1
+      return "Congratulations, you win with #{@player1}"
     elsif play2 == 1 && play1 == 3
-      return @player2
+      return "The computer wins with #{@player2}"
     else
       return "error"
     end
