@@ -1,0 +1,33 @@
+
+* {
+  font-family: comic sans ms;
+  color: rgb(30, 27, 24);
+}
+
+
+body {
+  background-color: rgb(176, 120, 70);
+  margin: 30px;
+  }
+
+li {
+  list-style-type: armenian;
+  margin: 50px;
+}
+
+a {
+  font-size: 18px;
+  font-style: Bold;
+}
+
+a:hover {
+  font-size: 28px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
