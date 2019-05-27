@@ -12,6 +12,7 @@ end
 
 get '/:player1/:player2' do
   game = Rps.new(params[:player1], params[:player2])
+  @player = params[:player1]
   @computer = params[:player2]
   @winner = game.battle()
   erb( :result )
